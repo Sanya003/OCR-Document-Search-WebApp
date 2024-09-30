@@ -11,7 +11,7 @@ def highlight_text(text, keyword):
 st.title('OCR Document Search Web App')
 st.divider()
 
-'''
+_ = '''
 def got_ocr(image_path):
     from transformers import AutoModel, AutoTokenizer
     tokenizer = AutoTokenizer.from_pretrained("stepfun-ai/GOT-OCR2_0", trust_remote_code=True)
